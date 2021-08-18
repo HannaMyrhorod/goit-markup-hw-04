@@ -139,7 +139,8 @@ img {
   margin-left: auto;
 }
 .header-contacts a {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -149,6 +150,10 @@ img {
 .header-contacts a:hover,
 .header-contacts a:focus {
   color: var(--accent-color);
+}
+.header-icons {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* Hero */
